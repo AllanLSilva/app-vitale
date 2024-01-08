@@ -1,2 +1,2 @@
-## teste do git ignore
-stack_co.dart
+# ignorando o arquivo stack_co.dart na pasta helpers dentro do repositório app-vitale
+app-vitale/helpers/stack_co.dart
