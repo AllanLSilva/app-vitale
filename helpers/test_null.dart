@@ -9,7 +9,7 @@ void testingNullSafety(){
   Random rng = Random();
   int randomNumber = rng.nextInt(10);
   if (randomNumber <= 5){
-    myAccount = Account(name: 'Ricarth', balance: 200, isAuthenticated: true);
+    myAccount = Account(name: 'ComercialInterno', balance: 200, isAuthenticated: true);
   }
 
   print(myAccount.runtimeType);
