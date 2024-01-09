@@ -10,5 +10,5 @@
 
 ### Super App Vitale
 <div>
-<img scr="C:\Users\allan.silva\Desktop\Logo_Vitale_Horizontal.png" width = "40" height = "40"/>
+<img src="C:\Users\allan.silva\Desktop\Logo_Vitale_Horizontal.png" width = "40" height = "40"/>
 </div>
