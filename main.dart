@@ -33,18 +33,10 @@ void main() {
   // Verificando se a meta orçamentária da Conta ComercialInterno foi alcançada
   print('A meta orçamentária foi alcançada? ${commercialAccount.isBudgetGoalAchieved()}');
 
-  // Mudando a moeda nas configurações da Conta ComercialInterno
-<<<<<<< HEAD
-  commercialAccount.changeCurrency('EUR');
-
-  // Mudando o idioma nas configurações da Conta ComercialInterno
-  commercialAccount.changeLanguage('es');
-=======
   commercialAccount.changeCurrency('BRL');
 
   // Mudando o idioma nas configurações da Conta ComercialInterno
   commercialAccount.changeLanguage('pt-br');
->>>>>>> 86342e45a4c589420083abcd2a902662325fe8d6
 
   // Fazendo uma transferência entre Conta ComercialInterno e Financeiro
   try {
