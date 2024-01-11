@@ -19,7 +19,8 @@ void main() {
   // Acessando a conta ComercialInterno
   Account commercialAccount = bankController.getAccountById("ComercialInterno");
   // Editando o saldo da conta ComercialInterno
-  commercialAccount.editBalance(value: 200);
+  commercialAccount.editBalance(value: 500);
+
 
   // Adicionando transações à conta ComercialInterno
   commercialAccount.addTransaction(category: 'Vendas', amount: 500);
@@ -33,10 +34,17 @@ void main() {
   print('A meta orçamentária foi alcançada? ${commercialAccount.isBudgetGoalAchieved()}');
 
   // Mudando a moeda nas configurações da Conta ComercialInterno
+<<<<<<< HEAD
   commercialAccount.changeCurrency('EUR');
 
   // Mudando o idioma nas configurações da Conta ComercialInterno
   commercialAccount.changeLanguage('es');
+=======
+  commercialAccount.changeCurrency('BRL');
+
+  // Mudando o idioma nas configurações da Conta ComercialInterno
+  commercialAccount.changeLanguage('pt-br');
+>>>>>>> 86342e45a4c589420083abcd2a902662325fe8d6
 
   // Fazendo uma transferência entre Conta ComercialInterno e Financeiro
   try {
