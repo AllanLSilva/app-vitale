@@ -12,13 +12,5 @@ void testingNullSafety(){
     myAccount = Account(name: 'ComercialInterno', balance: 200, isAuthenticated: true);
   }
 
-  print(myAccount.runtimeType);
-
-  // if (myAccount != null){
-  //   print(myAccount.balance);
-  // } else {
-  //   print('Conta nula!');
-  // }
-
   print(myAccount != null ? myAccount.balance : 'Conta Nula!');
 }

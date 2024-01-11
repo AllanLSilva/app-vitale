@@ -19,7 +19,7 @@ void main() {
   // Acessando a conta ComercialInterno
   Account commercialAccount = bankController.getAccountById("ComercialInterno");
   // Editando o saldo da conta ComercialInterno
-  commercialAccount.editBalance(value: 500);
+  commercialAccount.editBalance(value: 1000);
 
   // Adicionando transações à conta ComercialInterno
   commercialAccount.addTransaction(category: 'Vendas', amount: 500);
