@@ -21,6 +21,7 @@ void main() {
   // Editando o saldo da conta ComercialInterno
   commercialAccount.editBalance(value: 1000);
 
+
   // Adicionando transações à conta ComercialInterno
   commercialAccount.addTransaction(category: 'Vendas', amount: 500);
   commercialAccount.addTransaction(category: 'Despesas', amount: -300);
@@ -32,7 +33,6 @@ void main() {
   // Verificando se a meta orçamentária da Conta ComercialInterno foi alcançada
   print('A meta orçamentária foi alcançada? ${commercialAccount.isBudgetGoalAchieved()}');
 
-  // Mudando a moeda nas configurações da Conta ComercialInterno
   commercialAccount.changeCurrency('BRL');
 
   // Mudando o idioma nas configurações da Conta ComercialInterno
